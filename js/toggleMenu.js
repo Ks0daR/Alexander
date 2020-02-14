@@ -1,5 +1,10 @@
 const refs = {
-  menu: document.querySelector('.toggleMenu')
+  button: document.querySelector(".toggleMenu"),
+  menu: document.querySelector(".menu__container")
 };
 
-console.log(refs.menu);
+function toggleMenu() {
+  refs.menu.classList.toggle("invisible");
+}
+
+refs.button.addEventListener("click", toggleMenu);
