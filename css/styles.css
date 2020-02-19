@@ -1,92 +1,180 @@
-body{
+body {
   background-image: url(../img/background-tile.png);
 }
 
-@media (max-width: 320px) {
-  .invisible {
-    display: none;
-  }
+footer {
+  width: auto;
+  background-image: url(../img/New-Blue-Background-Main-2.jpg);
+  background-size: cover;
+}
+
+.invisible {
+  display: none;
+}
+
+.nav {
+  max-width: 480px;
+}
+
+.logo {
+  padding: 30px;
+  text-align: center;
+}
+
+.logo__ref {
+  text-decoration: none;
+}
+
+.logo__text {
+  font-size: 36px;
+  font-family: 'Shojumaru', cursive;
+  color: rgb(71, 71, 71);
+  line-height: 0.429;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 0;
+  display: block;
+}
+
+.menu__item {
+  padding: 6px;
+  list-style: none;
+
+  text-align: center;
+}
+
+.menu__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(71, 71, 71);
+  line-height: 1.05;
+}
+
+.menu__link:hover {
+  color: indigo;
+  background: lawngreen;
+}
+
+.toggleMenu {
+  font-size: 20px;
+  text-align: center;
+}
+
+.content {
+  max-width: 480px;
+}
+
+.gallery {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 95%;
+  padding: 2%;
+}
+.card__item__img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card__item__title {
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: rgb(9, 238, 123);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contacts {
+  max-width: 480px;
+  padding: 6px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.phone__number {
+  display: block;
+}
+.messeger {
+  text-align: center;
+}
+.messeger__img {
+  width: 40px;
+  padding: 20px;
+}
+
+@media (min-width: 480px) {
   .nav {
-    width: 100%;
+    max-width: 768px;
   }
 
   .logo {
-    padding: 30px;
-    text-align: center;
-  }
-
-  .logo__ref {
-    text-decoration: none;
+    padding: 46px;
   }
 
   .logo__text {
-    font-size: 30px;
-    font-family: "Lacquer", sans-serif;
-    color: rgb(71, 71, 71);
-    line-height: 0.429;
-    cursor: pointer;
-  }
-
-  .menu {
-    padding: 0;
-    display: block;
-  }
-
-  .menu__item {
-    padding: 6px;
-    list-style: none;
-
-    text-align: center;
+    font-size: 46px;
   }
 
   .menu__link {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Neucha", cursive;
-    color: rgb(71, 71, 71);
-    line-height: 1.05;
-  }
-
-  .menu__link:hover {
-    color: indigo;
-    background: lawngreen;
+    font-size: 20px;
   }
 
   .toggleMenu {
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
   }
 
-  .gallery {
-    display: none;
+  .content {
+    max-width: 768px;
   }
 
   .cards {
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  .card__item {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 95%;
-    padding: 6px;
-  }
   .card__item__img {
-    width: 100%;
+    width: 50%;
     height: 150px;
     border-radius: 10px;
   }
 
+  .card__ref {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
   .card__item__title {
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 20px;
-    color:#fff;
+    text-decoration: none;
+    position: static;
+    transform: translate(0, 0);
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    padding: 20px;
+  }
+
+  .contacts {
+    max-width: 768px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .messeger__img {
+    width: 60px;
   }
 }

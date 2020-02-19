@@ -1,0 +1,22 @@
+{
+  "name": "ekvator",
+  "version": "1.0.0",
+  "description": "magasin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ks0daR/Sysanin.git"
+  },
+  "author": "Ivan Shevchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ks0daR/Sysanin/issues"
+  },
+  "homepage": "https://github.com/Ks0daR/Sysanin#readme",
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
