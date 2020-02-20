@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Ks0daR/Sysanin#readme",
   "devDependencies": {
     "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "spotlight.js": "^0.6.5"
   }
 }

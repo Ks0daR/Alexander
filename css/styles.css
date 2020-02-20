@@ -11,6 +11,9 @@ footer {
 .invisible {
   display: none;
 }
+.spotlight-group {
+  display: none;
+}
 
 .nav {
   max-width: 480px;
@@ -176,5 +179,47 @@ footer {
 
   .messeger__img {
     width: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .invisible {
+    display: block;
+  }
+  .invisible--menu {
+    display: none;
+  }
+  .nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu {
+    display: flex;
+    margin-top: 40px;
+  }
+  .card__item {
+    width: 45%;
+  }
+
+  .card__ref {
+    flex-direction: column;
+  }
+
+  .card__item__img {
+    width: 100%;
+    height: 250px;
+  }
+  .card__item:hover {
+    background: #ccc;
+  }
+  .content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .contacts {
+    max-width: 1200px;
+    margin: auto;
   }
 }
