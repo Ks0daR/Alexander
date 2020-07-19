@@ -30,7 +30,7 @@ footer {
 
 .logo__text {
   font-size: 36px;
-  font-family: 'Shojumaru', cursive;
+  font-family: "Shojumaru", cursive;
   color: rgb(71, 71, 71);
   line-height: 0.429;
   cursor: pointer;
@@ -52,7 +52,7 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(71, 71, 71);
   line-height: 1.05;
 }
@@ -101,14 +101,14 @@ footer {
   transform: translateX(-50%);
   font-size: 20px;
   color: rgb(9, 238, 123);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contacts {
   max-width: 480px;
   padding: 6px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .phone__number {
   display: block;
@@ -119,6 +119,42 @@ footer {
 .messeger__img {
   width: 40px;
   padding: 20px;
+}
+
+/* Cellings */
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-gap: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.spotlight__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.spotlight-margin {
+  margin: auto;
+}
+
+.text__title {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text__subtitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 480px) {
